@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 3, 41);
+}
+
+.app {
+    margin-top: 30px;
+}
+
+.app__header {
+    color: white;
+    text-align: center;
+}
+
+.posts__section {
+    width: 65%;
+    margin-top: 50px;
+    margin: 0 auto;
+}
+
+.pages__section {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px 15px;
+}
+
+.pages__section>button {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.dots {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: end;
+}
+
+.show-page-num {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 5px 8px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.blog__posts {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: rgba(56, 53, 53, 0.76);
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+.post>p:nth-child(1) {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 30px;
+}
+
+.post>h3 {
+    color: rgb(197, 197, 197);
+}
+
+.post>p:nth-child(3) {
+    color: gray;
+    margin-top: 5px;
+}
+
+.loading {
+    color: white;
+    font-size: 30px;
+    margin-top: 20%;
+    text-align: center;
+}
+
+button :disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
